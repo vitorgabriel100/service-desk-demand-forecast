@@ -1,0 +1,21 @@
+service-desk-demand-forecast/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── src/
+│   ├── load_data.py
+│   ├── feature_engineering.py
+│   ├── baseline.py
+│   ├── model.py
+│   ├── evaluate.py
+│   └── visualize.py
+│
+├── outputs/
+│   ├── charts/
+│   └── reports/
+│
+├── main.py
+├── requirements.txt
+└── README.md
