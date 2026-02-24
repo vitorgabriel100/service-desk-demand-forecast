@@ -6,15 +6,19 @@ service-desk-demand-forecast/
 │
 ├── src/
 │   ├── load_data.py
+│   ├── synthetic_data.py
 │   ├── feature_engineering.py
 │   ├── baseline.py
 │   ├── model.py
+│   ├── config.py
 │   ├── evaluate.py
-│   └── visualize.py
+│   ├── visualize.py
+│   └── reporting.py
 │
 ├── outputs/
 │   ├── charts/
-│   └── reports/
+│   ├── reports/
+│   └── model/
 │
 ├── main.py
 ├── requirements.txt
