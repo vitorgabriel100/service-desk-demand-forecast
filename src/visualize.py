@@ -22,7 +22,6 @@ def plot_forecast(df_plot: pd.DataFrame, out_path: Path, title: str) -> None:
     ax.set_ylabel("tickets")
     ax.legend()
 
-    # ✅ Ticks mais "humanos" e consistentes
     ax.xaxis.set_major_locator(mdates.DayLocator(interval=4))        # 1 label a cada 4 dias
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%d/%m/%Y"))
 
