@@ -19,6 +19,7 @@ Avaliar impacto prático na redução do erro de previsão
 Gerar insights acionáveis para operação de Service Desk
 
 🧠 Metodologia
+
 1️⃣ Dados
 
 Dataset simulado e realista de chamados de Service Desk
@@ -102,13 +103,20 @@ service-desk-demand-forecast/
 └── README.md
 
 ▶️ Como executar (Windows)
+
 python -m venv .venv
+
 .venv\Scripts\activate
+
 pip install -r requirements.txt
 
+
 python main.py --make-data
+
 python main.py --train
+
 python main.py --report
+
 
 🚀 Próximos Passos (v2)
 
